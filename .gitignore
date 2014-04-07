@@ -1,0 +1,28 @@
+#Gerber files
+*.gbl
+*.gbo
+*.gbs
+*.gml
+*.gtl
+*.gto
+*.gts
+*.txt
+*.gtp
+*.gbp
+*.ger
+*.gpi
+*.dri
+*.xln
+*.gko
+
+#Eagle files
+*.epf
+*.b#?
+*.s#?
+*.do
+*.pro
+
+#Other files
+*.zip
+*.png
+*.xls
