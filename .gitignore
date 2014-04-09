@@ -26,3 +26,6 @@
 *.zip
 *.png
 *.xls
+Thumbs.db
+!board.png
+!schematic.png

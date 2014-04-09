@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,16 +39,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -34619,7 +34619,7 @@ LETTER landscape</description>
 </class>
 </classes>
 <parts>
-<part name="U1" library="atmel" deviceset="ATMEGA644" device="A"/>
+<part name="U1" library="atmel" deviceset="ATMEGA644" device="A" value="ATmega1284P-AU"/>
 <part name="C1" library="_jc" deviceset="C-US" device="M0805" value="100nF"/>
 <part name="C2" library="_jc" deviceset="C-US" device="M0805" value="100nF"/>
 <part name="C3" library="_jc" deviceset="C-US" device="M0805" value="100nF"/>
@@ -34670,12 +34670,12 @@ LETTER landscape</description>
 <text x="149.86" y="25.4" size="2.54" layer="91" ratio="12">by Jack Christensen</text>
 <text x="238.76" y="7.62" size="2.54" layer="91" ratio="12">v0.8</text>
 <text x="5.08" y="10.16" size="2.1844" layer="91" ratio="10">Mighty Mini 1284P by Jack Christensen is licensed under</text>
-<text x="17.78" y="15.24" size="3.81" layer="91" ratio="12">CC BY-SA 4.0</text>
+<text x="5.08" y="15.24" size="3.81" layer="91" ratio="12">CC BY-SA 4.0</text>
 <text x="5.08" y="5.08" size="2.1844" layer="91" ratio="10">a Creative Commons Attribution-ShareAlike 4.0 International License.</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="170.18" y="121.92" smashed="yes">
-<attribute name="VALUE" x="147.32" y="73.66" size="1.778" layer="96"/>
+<attribute name="VALUE" x="167.64" y="168.91" size="1.778" layer="96"/>
 <attribute name="NAME" x="147.32" y="168.91" size="1.778" layer="95"/>
 </instance>
 <instance part="C1" gate="G$1" x="58.42" y="116.84" smashed="yes">
@@ -34808,8 +34808,8 @@ LETTER landscape</description>
 <instance part="GND4" gate="1" x="68.58" y="101.6" smashed="yes">
 <attribute name="VALUE" x="66.04" y="99.06" size="1.778" layer="96"/>
 </instance>
-<instance part="LOGO2" gate="G$1" x="10.16" y="17.78"/>
-<instance part="LOGO1" gate="G$1" x="10.16" y="25.4"/>
+<instance part="LOGO2" gate="G$1" x="65.024" y="17.272"/>
+<instance part="LOGO1" gate="G$1" x="53.594" y="17.272"/>
 <instance part="R2" gate="G$1" x="86.36" y="149.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="87.6554" y="153.924" size="1.778" layer="95"/>
 <attribute name="VALUE" x="87.63" y="151.384" size="1.778" layer="96"/>
