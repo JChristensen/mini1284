@@ -3660,7 +3660,6 @@ MELF 0.25 W</description>
 <wire x1="2.667" y1="1.651" x2="2.667" y2="-1.651" width="0.127" layer="21"/>
 <wire x1="2.667" y1="-1.651" x2="-2.667" y2="-1.651" width="0.127" layer="21"/>
 <wire x1="-2.667" y1="-1.651" x2="-2.667" y2="1.651" width="0.127" layer="21"/>
-<wire x1="2.54" y1="1.524" x2="2.54" y2="-1.524" width="0.127" layer="41"/>
 <wire x1="-0.635" y1="0.889" x2="0.635" y2="0.889" width="0.127" layer="41"/>
 <wire x1="0.635" y1="0.889" x2="0.635" y2="-0.889" width="0.127" layer="41"/>
 <wire x1="0.635" y1="-0.889" x2="-0.635" y2="-0.889" width="0.127" layer="41"/>
@@ -34655,7 +34654,7 @@ LETTER landscape</description>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP5" library="_jc" deviceset="AVR_SPI_PRG_6" device="2X3_LOCK" value="ICSP"/>
-<part name="FRAME1" library="frames" deviceset="LETTER_L" device=""/>
+<part name="FRAME1" library="frames" deviceset="LETTER_L" device="" value="frame"/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
 <part name="LOGO2" library="ohw-logo" deviceset="OSHW_LOGO_6MIL" device="X0100-NT" value="OSHW_LOGO_6MILX0100-NT"/>
 <part name="LOGO1" library="ohw-logo" deviceset="OSHW_LOGO_8MIL" device="X0150-NT" value="OSHW_LOGO_8MILX0150-NT"/>
@@ -34668,7 +34667,7 @@ LETTER landscape</description>
 <plain>
 <text x="149.86" y="30.48" size="3.81" layer="91" ratio="12">Mighty Mini 1284P</text>
 <text x="149.86" y="25.4" size="2.54" layer="91" ratio="12">by Jack Christensen</text>
-<text x="238.76" y="7.62" size="2.54" layer="91" ratio="12">v0.8</text>
+<text x="238.76" y="7.62" size="2.54" layer="91" ratio="12">v1.0</text>
 <text x="5.08" y="10.16" size="2.1844" layer="91" ratio="10">Mighty Mini 1284P by Jack Christensen is licensed under</text>
 <text x="5.08" y="15.24" size="3.81" layer="91" ratio="12">CC BY-SA 4.0</text>
 <text x="5.08" y="5.08" size="2.1844" layer="91" ratio="10">a Creative Commons Attribution-ShareAlike 4.0 International License.</text>
@@ -35342,7 +35341,6 @@ LETTER landscape</description>
 </sheets>
 <errors>
 <approved hash="104,1,142.24,137.16,U1,AVCC,N$1,,,"/>
-<approved hash="115,1,124.356,92.606,FRAME1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
