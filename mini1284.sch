@@ -3665,34 +3665,6 @@ MELF 0.25 W</description>
 <wire x1="0.635" y1="-0.889" x2="-0.635" y2="-0.889" width="0.127" layer="41"/>
 <wire x1="-0.635" y1="-0.889" x2="-0.635" y2="0.889" width="0.127" layer="41"/>
 </package>
-<package name="HC-49-US-SMT">
-<wire x1="-5.08" y1="2.413" x2="5.08" y2="2.413" width="0.254" layer="21"/>
-<wire x1="5.08" y1="2.413" x2="5.715" y2="1.778" width="0.254" layer="21" curve="-90"/>
-<wire x1="5.715" y1="1.778" x2="5.715" y2="-1.778" width="0.254" layer="21"/>
-<wire x1="5.715" y1="-1.778" x2="5.08" y2="-2.413" width="0.254" layer="21" curve="-90"/>
-<wire x1="5.08" y1="-2.413" x2="-5.08" y2="-2.413" width="0.254" layer="21"/>
-<wire x1="-5.08" y1="-2.413" x2="-5.715" y2="-1.778" width="0.254" layer="21" curve="-90"/>
-<wire x1="-5.715" y1="-1.778" x2="-5.715" y2="1.778" width="0.254" layer="21"/>
-<wire x1="-5.715" y1="1.778" x2="-5.08" y2="2.413" width="0.254" layer="21" curve="-90"/>
-<text x="-1.27" y="-0.635" size="1.016" layer="25" ratio="16">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.016" layer="27" ratio="16">&gt;VALUE</text>
-<smd name="P$1" x="-4.572" y="0" dx="2.1336" dy="5.08" layer="1" rot="R90"/>
-<smd name="P$2" x="4.572" y="0" dx="2.1336" dy="5.08" layer="1" rot="R90"/>
-</package>
-<package name="CRYSTAL-ABRACON-ABM2">
-<smd name="P$1" x="-3.5" y="0" dx="2.5" dy="3" layer="1"/>
-<smd name="P$2" x="3.5" y="0" dx="2.5" dy="3" layer="1"/>
-<wire x1="3.365" y1="-2.25" x2="-3.365" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="-3.365" y1="-2.25" x2="-4" y2="-1.615" width="0.127" layer="21" curve="-90"/>
-<wire x1="-4" y1="-1.615" x2="-4" y2="1.615" width="0.127" layer="21"/>
-<wire x1="-4" y1="1.615" x2="-3.365" y2="2.25" width="0.127" layer="21" curve="-90"/>
-<wire x1="-3.365" y1="2.25" x2="3.365" y2="2.25" width="0.127" layer="21"/>
-<wire x1="3.365" y1="2.25" x2="4" y2="1.615" width="0.127" layer="21" curve="-90"/>
-<wire x1="4" y1="1.615" x2="4" y2="-1.615" width="0.127" layer="21"/>
-<wire x1="4" y1="-1.615" x2="3.365" y2="-2.25" width="0.127" layer="21" curve="-90"/>
-<text x="-1.397" y="-0.508" size="1.016" layer="25" ratio="16">&gt;NAME</text>
-<text x="-1.27" y="-3.81" size="1.016" layer="27" ratio="16">&gt;VALUE</text>
-</package>
 <package name="SOD-323F-A">
 <wire x1="-0.85" y1="0.65" x2="0.85" y2="0.65" width="0.127" layer="21"/>
 <wire x1="0.85" y1="0.65" x2="0.85" y2="-0.65" width="0.127" layer="21"/>
@@ -4802,6 +4774,24 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <wire x1="0.635" y1="-1.016" x2="0.635" y2="1.016" width="0.127" layer="41"/>
 <wire x1="0.635" y1="1.016" x2="-0.635" y2="1.016" width="0.127" layer="41"/>
 </package>
+<package name="CRYSTAL-EPSON-TSX3225">
+<wire x1="1.2825" y1="-1.25" x2="-1.2825" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-1.2825" y1="-1.25" x2="-1.6" y2="-0.9325" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.6" y1="-0.9325" x2="-1.6" y2="0.9325" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="0.9325" x2="-1.2825" y2="1.25" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.2825" y1="1.25" x2="1.2825" y2="1.25" width="0.127" layer="21"/>
+<wire x1="1.2825" y1="1.25" x2="1.6" y2="0.9325" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.6" y1="0.9325" x2="1.6" y2="-0.9325" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-0.9325" x2="1.2825" y2="-1.25" width="0.127" layer="21" curve="-90"/>
+<smd name="1" x="-1.3" y="-0.85" dx="1.6" dy="1.2" layer="1"/>
+<smd name="2" x="1.3" y="-0.85" dx="1.6" dy="1.2" layer="1"/>
+<smd name="3" x="1.3" y="0.85" dx="1.6" dy="1.2" layer="1"/>
+<smd name="4" x="-1.3" y="0.85" dx="1.6" dy="1.2" layer="1"/>
+<text x="-1.27" y="1.778" size="0.8128" layer="25" ratio="16">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="0.8128" layer="27" ratio="16">&gt;VALUE</text>
+<wire x1="1.27" y1="-1.905" x2="2.54" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="-0.635" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="C-US">
@@ -4875,22 +4865,6 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 </symbol>
-<symbol name="CRYSTAL">
-<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
-<text x="2.54" y="1.016" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
-<text x="1.524" y="-1.143" size="0.8636" layer="93">3</text>
-<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
-</symbol>
 <symbol name="AVR_SPI_PROGRAMMER_6">
 <wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.4064" layer="94"/>
@@ -4929,6 +4903,29 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <vertex x="-2.921" y="-2.413"/>
 <vertex x="-2.413" y="-2.921"/>
 </polygon>
+</symbol>
+<symbol name="CRYSTAL-2GND">
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="3.048" y1="-1.905" x2="3.048" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.048" y1="-2.54" x2="3.048" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.048" y1="-2.54" x2="-3.048" y2="-1.905" width="0.1524" layer="94"/>
+<text x="2.54" y="1.016" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
+<text x="-2.032" y="-3.683" size="0.8636" layer="93">2</text>
+<text x="1.524" y="-1.143" size="0.8636" layer="93">3</text>
+<pin name="3" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="-2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="4" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<text x="1.524" y="-3.683" size="0.8636" layer="93">4</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -6496,31 +6493,6 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRYSTAL" prefix="Y" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="HC49" package="HC-49-US-SMT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="ABM2" package="CRYSTAL-ABRACON-ABM2">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="AVR_SPI_PRG_6" prefix="JP" uservalue="yes">
 <description>&lt;b&gt;AVR ISP 6 Pin&lt;/b&gt;
 This is the reduced ISP connector for AVR programming. Common on Arduino. This footprint will take up less PCB space and can be used with a 10-pin to 6-pin adapter such as SKU: BOB-08508</description>
@@ -6948,6 +6920,24 @@ Source: http://www.osram.convergy.de/</description>
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRYSTAL-2GND" prefix="Y" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="CRYSTAL-2GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TSX3225" package="CRYSTAL-EPSON-TSX3225">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -34650,7 +34640,6 @@ LETTER landscape</description>
 <part name="JP3" library="SparkFun" deviceset="M09" device="" value="M09"/>
 <part name="JP4" library="SparkFun" deviceset="M09" device="" value="M09"/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
-<part name="Y1" library="_jc" deviceset="CRYSTAL" device="ABM2" value="16MHz"/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP5" library="_jc" deviceset="AVR_SPI_PRG_6" device="2X3_LOCK" value="ICSP"/>
@@ -34661,6 +34650,7 @@ LETTER landscape</description>
 <part name="R2" library="_jc" deviceset="R-US_" device="M0805" value="1K"/>
 <part name="D2" library="_jc" deviceset="LED" device="D0805A" value="LED"/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
+<part name="Y1" library="_jc" deviceset="CRYSTAL-2GND" device="TSX3225"/>
 </parts>
 <sheets>
 <sheet>
@@ -34693,13 +34683,13 @@ LETTER landscape</description>
 <attribute name="NAME" x="138.176" y="104.775" size="1.778" layer="95"/>
 <attribute name="VALUE" x="138.176" y="99.949" size="1.778" layer="96"/>
 </instance>
-<instance part="C7" gate="G$1" x="106.68" y="137.16" smashed="yes">
-<attribute name="NAME" x="97.028" y="137.795" size="1.778" layer="95"/>
-<attribute name="VALUE" x="96.774" y="135.255" size="1.778" layer="96"/>
+<instance part="C7" gate="G$1" x="99.06" y="129.54" smashed="yes">
+<attribute name="NAME" x="89.408" y="130.175" size="1.778" layer="95"/>
+<attribute name="VALUE" x="89.154" y="127.635" size="1.778" layer="96"/>
 </instance>
-<instance part="C8" gate="G$1" x="116.84" y="137.16" smashed="yes">
-<attribute name="NAME" x="118.364" y="132.207" size="1.778" layer="95"/>
-<attribute name="VALUE" x="118.364" y="129.667" size="1.778" layer="96"/>
+<instance part="C8" gate="G$1" x="116.84" y="129.54" smashed="yes">
+<attribute name="NAME" x="118.364" y="124.587" size="1.778" layer="95"/>
+<attribute name="VALUE" x="118.364" y="122.047" size="1.778" layer="96"/>
 </instance>
 <instance part="C6" gate="G$1" x="88.9" y="116.84" smashed="yes">
 <attribute name="NAME" x="89.916" y="117.475" size="1.778" layer="95"/>
@@ -34763,8 +34753,8 @@ LETTER landscape</description>
 <instance part="P+2" gate="VCC" x="119.38" y="114.3" smashed="yes">
 <attribute name="VALUE" x="117.094" y="115.316" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="111.76" y="127" smashed="yes">
-<attribute name="VALUE" x="109.22" y="124.46" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="111.76" y="114.3" smashed="yes">
+<attribute name="VALUE" x="109.22" y="111.76" size="1.778" layer="96"/>
 </instance>
 <instance part="P+6" gate="VCC" x="68.58" y="129.54" smashed="yes">
 <attribute name="VALUE" x="66.04" y="127" size="1.778" layer="96" rot="R90"/>
@@ -34787,10 +34777,6 @@ LETTER landscape</description>
 </instance>
 <instance part="GND5" gate="1" x="129.54" y="127" smashed="yes">
 <attribute name="VALUE" x="127" y="124.46" size="1.778" layer="96"/>
-</instance>
-<instance part="Y1" gate="G$1" x="111.76" y="142.24" smashed="yes">
-<attribute name="NAME" x="109.22" y="147.574" size="1.778" layer="95"/>
-<attribute name="VALUE" x="109.22" y="145.034" size="1.778" layer="96"/>
 </instance>
 <instance part="P+7" gate="VCC" x="231.14" y="152.4" smashed="yes">
 <attribute name="VALUE" x="228.6" y="149.86" size="1.778" layer="96" rot="R90"/>
@@ -34817,6 +34803,7 @@ LETTER landscape</description>
 <instance part="GND7" gate="1" x="86.36" y="139.7" smashed="yes">
 <attribute name="VALUE" x="83.82" y="137.16" size="1.778" layer="96"/>
 </instance>
+<instance part="Y1" gate="G$1" x="109.22" y="134.62"/>
 </instances>
 <busses>
 </busses>
@@ -34934,10 +34921,19 @@ LETTER landscape</description>
 <pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="106.68" y1="132.08" x2="111.76" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="132.08" x2="111.76" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="132.08" x2="111.76" y2="132.08" width="0.1524" layer="91"/>
-<junction x="111.76" y="132.08"/>
+<wire x1="99.06" y1="124.46" x2="99.06" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="121.92" x2="111.76" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="121.92" x2="111.76" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="124.46" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="121.92" x2="111.76" y2="121.92" width="0.1524" layer="91"/>
+<junction x="111.76" y="121.92"/>
+<pinref part="Y1" gate="G$1" pin="4"/>
+<wire x1="111.76" y1="129.54" x2="111.76" y2="127" width="0.1524" layer="91"/>
+<pinref part="Y1" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="127" x2="111.76" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="129.54" x2="106.68" y2="127" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="127" x2="111.76" y2="127" width="0.1524" layer="91"/>
+<junction x="111.76" y="127"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
@@ -35076,14 +35072,15 @@ LETTER landscape</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="XTAL1"/>
-<wire x1="114.3" y1="142.24" x2="116.84" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="142.24" x2="119.38" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="142.24" x2="119.38" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="144.78" x2="142.24" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="139.7" x2="116.84" y2="142.24" width="0.1524" layer="91"/>
-<junction x="116.84" y="142.24"/>
-<pinref part="Y1" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="132.08" x2="116.84" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="Y1" gate="G$1" pin="3"/>
+<wire x1="116.84" y1="134.62" x2="116.84" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="134.62" x2="116.84" y2="134.62" width="0.1524" layer="91"/>
+<junction x="116.84" y="134.62"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -35092,12 +35089,12 @@ LETTER landscape</description>
 <wire x1="142.24" y1="147.32" x2="119.38" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="147.32" x2="119.38" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="149.86" x2="106.68" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="149.86" x2="106.68" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="142.24" x2="106.68" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="142.24" x2="109.22" y2="142.24" width="0.1524" layer="91"/>
-<junction x="106.68" y="142.24"/>
+<wire x1="119.38" y1="149.86" x2="99.06" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="149.86" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="134.62" x2="99.06" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="Y1" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="134.62" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
+<junction x="99.06" y="134.62"/>
 </segment>
 </net>
 <net name="AREF" class="0">
