@@ -4121,7 +4121,7 @@ Please make sure your boards conform to these design rules.
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="atmel" package="TQFP44" value="ATMEGA644A" x="30.48" y="10.1346" smashed="yes">
+<element name="U1" library="atmel" package="TQFP44" value="ATmega1284P-AU" x="30.48" y="10.1346" smashed="yes">
 <attribute name="OC_NEWARK" value="58M3748" x="57.149990625" y="-0.0254" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ATMEGA644PV-10AU" x="57.149990625" y="-0.0254" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="57.149990625" y="-0.0254" size="1.778" layer="27" display="off"/>
