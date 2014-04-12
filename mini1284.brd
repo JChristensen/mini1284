@@ -171,7 +171,7 @@
 <text x="53.34" y="17.018" size="1.016" layer="21" ratio="16" rot="R180" align="center">A6</text>
 <text x="55.88" y="17.018" size="1.016" layer="21" ratio="16" rot="R180" align="center">A7</text>
 <text x="62.23" y="18.796" size="1.016" layer="21" ratio="16" rot="R180" align="center">BLK</text>
-<text x="59.69" y="12.954" size="1.016" layer="21" ratio="16" rot="R270" align="center">FTDI</text>
+<text x="59.6646" y="13.3604" size="1.27" layer="21" ratio="16" rot="R270" align="center">FTDI</text>
 <text x="59.69" y="12.7" size="1.27" layer="22" ratio="16" rot="MR0">Mighty Mini 1284P</text>
 <text x="59.69" y="10.16" size="1.27" layer="22" ratio="16" rot="MR0">CC BY-SA</text>
 <text x="59.69" y="7.62" size="1.27" layer="22" ratio="16" rot="MR0">jc 0414 v1.0</text>
