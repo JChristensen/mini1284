@@ -4789,8 +4789,7 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <smd name="4" x="-1.3" y="0.85" dx="1.6" dy="1.2" layer="1"/>
 <text x="-1.27" y="1.778" size="0.8128" layer="25" ratio="16">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="0.8128" layer="27" ratio="16">&gt;VALUE</text>
-<wire x1="1.27" y1="-1.905" x2="2.54" y2="-1.905" width="0.254" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="-0.635" width="0.254" layer="21"/>
+<circle x="2.921" y="-1.143" radius="0.3048" width="0.254" layer="21"/>
 </package>
 </packages>
 <symbols>
