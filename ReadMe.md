@@ -1,6 +1,8 @@
 # The Mighty Mini 1284P #
 
-A minimal breadboard-friendly design for the ATmega1284P MCU and named after [maniacbug's Arduino core for the 1284P](http://goo.gl/iBJMnJ), to recognize his contribution to the Arduino community.
+A minimal breadboard-friendly design for the ATmega1284P MCU, named after [maniacbug's "mighty-1284p" Arduino core](http://goo.gl/iBJMnJ), in recognition of his contribution to the Arduino community.
+
+05May2014 - An updated version of maniacbug's mighty-1284p core based on Arduino 1.0.5 is available [here](http://goo.gl/l7cPbX).
 
 Printed circuit boards can be [ordered through OSH Park](http://goo.gl/ZxooPW).
 
