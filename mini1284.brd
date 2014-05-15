@@ -4148,11 +4148,11 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="38.9622" y="8.6346" size="0.8128" layer="25" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="37.9368" y="9.12" size="0.8128" layer="27" ratio="16" rot="R270"/>
 </element>
-<element name="C7" library="_jc" package="M0805" value="27pF" x="15.24" y="13.716" smashed="yes" rot="R180">
+<element name="C7" library="_jc" package="M0805" value="22pF" x="15.24" y="13.716" smashed="yes" rot="R180">
 <attribute name="NAME" x="11.581" y="13.3872" size="0.8128" layer="25" ratio="16"/>
 <attribute name="VALUE" x="16.74" y="16.216" size="0.8128" layer="27" ratio="16" rot="R180"/>
 </element>
-<element name="C8" library="_jc" package="M0805" value="27pF" x="15.24" y="6.858" smashed="yes" rot="R180">
+<element name="C8" library="_jc" package="M0805" value="22pF" x="15.24" y="6.858" smashed="yes" rot="R180">
 <attribute name="NAME" x="11.5556" y="7.215" size="0.8128" layer="25" ratio="16"/>
 <attribute name="VALUE" x="16.74" y="9.358" size="0.8128" layer="27" ratio="16" rot="R180"/>
 </element>

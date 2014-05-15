@@ -34612,8 +34612,8 @@ LETTER landscape</description>
 <part name="C2" library="_jc" deviceset="C-US" device="M0805" value="100nF"/>
 <part name="C3" library="_jc" deviceset="C-US" device="M0805" value="100nF"/>
 <part name="C4" library="_jc" deviceset="C-US" device="M0805" value="100nF"/>
-<part name="C7" library="_jc" deviceset="C-US" device="M0805" value="27pF"/>
-<part name="C8" library="_jc" deviceset="C-US" device="M0805" value="27pF"/>
+<part name="C7" library="_jc" deviceset="C-US" device="M0805" value="22pF"/>
+<part name="C8" library="_jc" deviceset="C-US" device="M0805" value="22pF"/>
 <part name="C6" library="_jc" deviceset="C-US" device="M1206" value="10uF"/>
 <part name="C5" library="_jc" deviceset="C-US" device="M0805" value="100nF"/>
 <part name="C9" library="_jc" deviceset="C-US" device="M0805" value="100nF"/>
@@ -34656,7 +34656,7 @@ LETTER landscape</description>
 <plain>
 <text x="149.86" y="30.48" size="3.81" layer="91" ratio="12">Mighty Mini 1284P</text>
 <text x="149.86" y="25.4" size="2.54" layer="91" ratio="12">by Jack Christensen</text>
-<text x="238.76" y="7.62" size="2.54" layer="91" ratio="12">v1.0</text>
+<text x="238.76" y="7.62" size="2.54" layer="91" ratio="12">v1.1</text>
 <text x="5.08" y="10.16" size="2.1844" layer="91" ratio="10">Mighty Mini 1284P by Jack Christensen is licensed under</text>
 <text x="5.08" y="15.24" size="3.81" layer="91" ratio="12">CC BY-SA 4.0</text>
 <text x="5.08" y="5.08" size="2.1844" layer="91" ratio="10">a Creative Commons Attribution-ShareAlike 4.0 International License.</text>
